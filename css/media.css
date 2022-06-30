@@ -1,0 +1,46 @@
+@media (min-width: 375px) { 
+    body{  
+        background-image: url(../images/bg-pattern-bottom-desktop.svg),
+                          url(../images/bg-pattern-top-desktop.svg) ;
+        background-repeat: no-repeat,
+                           no-repeat;
+        background-position: bottom right,
+                             left top ;
+      }
+}
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+@media (min-width: 1400px) { ... }
+
+
+@media (max-width: 374.98px) { 
+    body{  
+        background-image: url(../images/bg-pattern-bottom-mobile.svg),
+                          url(../images/bg-pattern-top-mobile.svg) ;
+        background-repeat: no-repeat,
+                           no-repeat ;
+        background-position: bottom right,
+                             left top ;
+      }
+ }
+
+
+@media (max-width: 767.98px) { ... }
+
+
+@media (max-width: 991.98px) { ... }
+
+
+@media (max-width: 1199.98px) { ... }
+
+
+@media (max-width: 1399.98px) { ... }

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/league-spartan-v5-latin-regular.eot'); 
+  src: local(''),
+       url('../fonts/league-spartan-v5-latin-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/league-spartan-v5-latin-regular.woff2') format('woff2'), 
+       url('../fonts/league-spartan-v5-latin-regular.woff') format('woff'), 
+       url('../fonts/league-spartan-v5-latin-regular.ttf') format('truetype'), 
+       url('../fonts/league-spartan-v5-latin-regular.svg#LeagueSpartan') format('svg'); 
+}
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/league-spartan-v5-latin-500.eot'); 
+  src: local(''),
+       url('../fonts/league-spartan-v5-latin-500.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/league-spartan-v5-latin-500.woff2') format('woff2'), 
+       url('../fonts/league-spartan-v5-latin-500.woff') format('woff'), 
+       url('../fonts/league-spartan-v5-latin-500.ttf') format('truetype'), 
+       url('../fonts/league-spartan-v5-latin-500.svg#LeagueSpartan') format('svg'); 
+}
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/league-spartan-v5-latin-700.eot'); 
+  src: local(''),
+       url('../fonts/league-spartan-v5-latin-700.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/league-spartan-v5-latin-700.woff2') format('woff2'), 
+       url('../fonts/league-spartan-v5-latin-700.woff') format('woff'), 
+       url('../fonts/league-spartan-v5-latin-700.ttf') format('truetype'), 
+       url('../fonts/league-spartan-v5-latin-700.svg#LeagueSpartan') format('svg'); 
+}
