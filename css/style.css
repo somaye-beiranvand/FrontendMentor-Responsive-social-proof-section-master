@@ -50,3 +50,6 @@ body{
   color: hsl(333, 80%, 67%);
   font-weight: 500;
  }
+ .comment-item span{
+  font-weight: 700;
+ }
