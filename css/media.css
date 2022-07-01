@@ -1,4 +1,4 @@
-@media (min-width: 376px) { 
+/* @media (min-width: 426px) { 
     body{  
         background-image: url(../images/bg-pattern-bottom-desktop.svg),
                           url(../images/bg-pattern-top-desktop.svg) ;
@@ -6,24 +6,22 @@
                            no-repeat;
         background-position: bottom right,
                              left top ;
-        background-size: 75% , 40%;
+        background-size: 60% , 40%;
       }
+      .main{
+        width: 80vw;
+        height: 75vh;
+      }
+      .comment{
+        height: 33vh;
+      }
+      .comment div{
+        width: 25vw;
+        height: 20vh;
+      }
+
 }
-
-
-@media (min-width: 768px) { ... }
-
-
-@media (min-width: 992px) { ... }
-
-
-@media (min-width: 1200px) { ... }
-
-
-@media (min-width: 1400px) { ... }
-
-
-@media (max-width: 375.98px) { 
+@media (max-width: 425.98px) { 
     body{  
         background-image: url(../images/bg-pattern-bottom-mobile.svg),
                           url(../images/bg-pattern-top-mobile.svg) ;
@@ -32,18 +30,49 @@
         background-position: bottom right,
                              left top ;
       }
+      
+      .comment div{
+        width: 100%;
+      }
  }
-
-
-@media (max-width: 767.98px) { ... }
-
-
 @media (max-width: 991.98px) { 
-    
+    .main{
+        width: 90%;
+       
+      }
+ } */
+@media (min-width: 576px) { 
+  body{  
+    background-image: url(../images/bg-pattern-bottom-desktop.svg),
+                      url(../images/bg-pattern-top-desktop.svg) ;
+    background-repeat: no-repeat,
+                       no-repeat;
+    background-position: bottom right,
+                         left top ;
+    background-size: 60% , 40%;
+  }
+  } 
+ @media (min-width: 768px) { ... } 
+ @media (min-width: 992px) { ... }
+ @media (min-width: 1200px) { ... }
+ @media (min-width: 1400px) { ... }
+
+@media (max-width: 575.98px) { 
+  body{  
+    background-image: url(../images/bg-pattern-bottom-mobile.svg),
+                      url(../images/bg-pattern-top-mobile.svg) ;
+    background-repeat: no-repeat,
+                       no-repeat ;
+    background-position: bottom right,
+                         left top ;
+    background-size: 100% , 100%;
+  }
+  .rate{
+    width: 100% !important;
+  }
  }
-
-
+@media (max-width: 767.98px) { ... }
+@media (max-width: 991.98px) { ... }
 @media (max-width: 1199.98px) { ... }
-
-
 @media (max-width: 1399.98px) { ... }
+
