@@ -13,7 +13,7 @@ body{
                          left top ;
     background-size: 60% , 40%;
     font-family:'League Spartan';
-  }
+}
 .description p:first-child{     
   font-weight:700;
   font-size: 30px;
@@ -31,13 +31,6 @@ body{
   background-color: hsl(300, 24%, 96%) !important;
   border: none !important;
 } 
-
-/* .rate:nth-child(2){
-  justify-self: center;
-}
-.rate:last-child{
-  justify-self: end;
-} */
 .comment-item .card{
 background-color: hsl(300, 43%, 22%);
 }
