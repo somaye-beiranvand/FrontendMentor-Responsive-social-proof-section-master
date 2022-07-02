@@ -12,9 +12,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -41,7 +38,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=nCX3QVl_PiI) - This helped me customize bootstrap containers max-width
+- [1](https://www.youtube.com/watch?v=nCX3QVl_PiI) - This helped me customize bootstrap containers max-width
 
 
 ## Author
