@@ -5,29 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fonts.style">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-  <div class="container ">
-    <div class="row row-cols-1 row-cols-lg-2">
-      <div class="col pe-0 pe-md-5">
+<body class="vh-100 d-flex justify-content-center align-items-center">
+  <div class="container my-auto mt-5 mt-lg-auto">
+    <div class="row row-cols-1 row-cols-lg-2 mb-5">
+      <div class="col">
         <div class="description">
-            <p class="text-center text-md-start">
+            <p class="text-center text-lg-start">
               10,000+ of our users love our products.
             </p>
-            <p class="text-center text-md-start">
+            <p class="text-center text-lg-start">
               We only provide great products combined with excellent customer service.
               See what our satisfied customers are saying about our services.
             </p>
         </div>
       </div>
-      <div class="col d-grid pt-4">
-        <div class="card rate mb-3 w-75" style="max-width: 540px;">
+      <div class="col d-grid rate-section pt-4">
+        <div class="card rate mb-3" >
           <div class="ps-3 py-3 g-0 d-flex flex-column align-items-center flex-md-row">            
-            <div class="mb-2 mb-md-0 me-md-5">
+            <div class="mb-2 mb-md-0 me-md-4">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
@@ -41,9 +42,9 @@
             </div>
           </div>
         </div>
-        <div class="card rate mb-3 w-75" style="max-width: 540px;">
+        <div class="card rate mb-3" style="max-width: 540px;">
           <div class="ps-3 py-3 g-0 d-flex flex-column align-items-center flex-md-row">            
-            <div class="mb-2 mb-md-0 me-md-5">
+            <div class="mb-2 mb-md-0 me-md-4">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
@@ -52,14 +53,14 @@
             </div>            
             <div>
               <div class="card-body p-0">                
-                <p class="card-text">Rated 5 Stars in Reviews</p>                
+                <p class="card-text"> Rated 5 Stars in Report Guru</p>                
               </div>
             </div>
           </div>
         </div>
-        <div class="card rate mb-3 w-75" style="max-width: 540px;">
+        <div class="card rate mb-3" style="max-width: 540px;">
           <div class="ps-3 py-3 g-0 d-flex flex-column align-items-center flex-md-row">            
-            <div class="mb-2 mb-md-0 me-md-5">
+            <div class="mb-2 mb-md-0 me-md-4">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
               <img src="images/icon-star.svg" class="img-fluid" alt="...">
@@ -68,88 +69,87 @@
             </div>            
             <div>
               <div class="card-body p-0">                
-                <p class="card-text">Rated 5 Stars in Reviews</p>                
+                <p class="card-text">Rated 5 Stars in BestTech</p>                
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row comment row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-end">      
-        <div class="col mb-3 mb-lg-0">
-          <div class="comment-item">
-            <div class="card mb-0 py-3 px-5">
-              <div class="row g-0">
-                <div class="col-3">
-                  <img src="images/image-anne.jpg" class="img-fluid rounded-circle" alt="...">
-                </div>
-                <div class="col-9">
-                  <div class="card-body pt-0">
-                    <span class="card-title mb-0">Irene Roberts</span>
-                    <p class="card-text">Verified Buyer </p>                    
-                  </div>                  
-                </div>
-                <div class="col-12 mt-4">
-                  <p>
-                    Verified Buyer
-                    "Customer service is always excellent and very quick turn around. Completely
-                    delighted with the simplicity of the purchase and the speed of delivery."
-                  </p>
-                </div>
-              </div>
-            </div>            
-           </div>
-        </div>
-        <div class="col mb-3 mb-lg-0 align-self-center">
-          <div class="comment-item">
-           <div class="card mb-0 py-3 px-5">
-             <div class="row g-0">
-               <div class="col-3">
-                 <img src="images/image-anne.jpg" class="img-fluid rounded-circle" alt="...">
-               </div>
-               <div class="col-9">
-                 <div class="card-body pt-0">
-                   <span class="card-title mb-0">Irene Roberts</span>
-                   <p class="card-text">Verified Buyer </p>                    
-                 </div>                  
-               </div>
-               <div class="col-12 mt-4">
-                 <p>
-                   Verified Buyer
-                   "Customer service is always excellent and very quick turn around. Completely
-                   delighted with the simplicity of the purchase and the speed of delivery."
-                 </p>
-               </div>
-             </div>
-           </div>            
-          </div>
-       </div>
-       <div class="col align-self-end">
+    <div class="row comment flex-column flex-lg-row justify-content-between">      
+      <div class="col col-lg-auto mb-3 mb-lg-0">
         <div class="comment-item">
           <div class="card mb-0 py-3 px-5">
             <div class="row g-0">
               <div class="col-3">
-                <img src="images/image-anne.jpg" class="img-fluid rounded-circle" alt="...">
+                <img src="images/image-colton.jpg" class="img-fluid rounded-circle" alt="...">
               </div>
               <div class="col-9">
                 <div class="card-body pt-0">
-                  <span class="card-title mb-0">Irene Roberts</span>
+                  <span class="card-title mb-0"> Colton Smith </span>
                   <p class="card-text">Verified Buyer </p>                    
                 </div>                  
               </div>
               <div class="col-12 mt-4">
                 <p>
-                  Verified Buyer
-                  "Customer service is always excellent and very quick turn around. Completely
-                  delighted with the simplicity of the purchase and the speed of delivery."
+                  "We needed the same printed design as the one we had ordered a week prior.
+                  Not only did they find the original order, but we also received it in time.
+                  Excellent!"
                 </p>
               </div>
             </div>
           </div>            
          </div>
-     
       </div>
+      <div class="col col-lg-auto mb-3 mb-lg-0 align-self-center">
+        <div class="comment-item">
+         <div class="card mb-0 py-3 px-5">
+           <div class="row g-0">
+             <div class="col-3">
+               <img src="images/image-irene.jpg" class="img-fluid rounded-circle" alt="...">
+             </div>
+             <div class="col-9">
+               <div class="card-body pt-0">
+                 <span class="card-title mb-0">Irene Roberts</span>
+                 <p class="card-text">Verified Buyer </p>                    
+               </div>                  
+             </div>
+             <div class="col-12 mt-4">
+               <p>
+                "Customer service is always excellent and very quick turn around. Completely
+                 delighted with the simplicity of the purchase and the speed of delivery."
+               </p>
+             </div>
+           </div>
+         </div>            
+        </div>
+     </div>
+     <div class="col col-lg-auto align-self-end">
+      <div class="comment-item">
+        <div class="card mb-0 py-3 px-5">
+          <div class="row g-0">
+            <div class="col-3">
+              <img src="images/image-anne.jpg" class="img-fluid rounded-circle" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pt-0">
+                <span class="card-title mb-0">Anne Wallace</span>
+                <p class="card-text">Verified Buyer </p>                    
+              </div>                  
+            </div>
+            <div class="col-12 mt-4">
+              <p>
+                "Put an order with this company and can only praise them for the very high
+                standard. Will definitely use them again and recommend them to everyone!"
+              </p>
+            </div>
+          </div>
+        </div>            
+       </div>
+   
     </div>
+    </div> 
   </div>
+  
 </body>
 </html>

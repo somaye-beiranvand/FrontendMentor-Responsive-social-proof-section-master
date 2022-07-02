@@ -2,7 +2,7 @@ html{
     height: 100vh;
 }
 .row{
-    --bs-gutter-x: 0rem;
+    --bs-gutter-x: 0rem !important;
 }
 body{  
     background-image: url(../images/bg-pattern-bottom-desktop.svg),
@@ -14,42 +14,42 @@ body{
     background-size: 60% , 40%;
     font-family:'League Spartan';
   }
-  .description p:first-child{     
-    font-weight:700;
-    font-size: 30px;
-    color: hsl(300, 43%, 22%);
-  }
-  .description p:last-child{     
-    font-weight:500;
-    font-size: 15px;
-    color: hsl(303, 10%, 53%);
-  }
-  .rate{
-    font-weight: 700;
-    color: hsl(300, 43%, 22%);
-    font-size: 15px;
-    background-color: hsl(300, 24%, 96%);
-    --bs-card-border-width: 0px;
-  } 
-
-  .rate:nth-child(2){
-    justify-self: center;
-  }
-  .rate:last-child{
-    justify-self: end;
-  }
- .comment-item .card{
-  background-color: hsl(300, 43%, 22%);
- }
- .comment-item {
-  color: hsl(300, 24%, 96%);
+.description p:first-child{     
+  font-weight:700;
+  font-size: 30px;
+  color: hsl(300, 43%, 22%);
+}
+.description p:last-child{     
+  font-weight:500;
   font-size: 15px;
-  font-weight: 400;
- }
- .comment-item .card-body p{
-  color: hsl(333, 80%, 67%);
-  font-weight: 500;
- }
- .comment-item span{
+  color: hsl(303, 10%, 53%);
+}
+.rate{
   font-weight: 700;
- }
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  background-color: hsl(300, 24%, 96%) !important;
+  border: none !important;
+} 
+
+/* .rate:nth-child(2){
+  justify-self: center;
+}
+.rate:last-child{
+  justify-self: end;
+} */
+.comment-item .card{
+background-color: hsl(300, 43%, 22%);
+}
+.comment-item {
+color: hsl(300, 24%, 96%);
+font-size: 15px;
+font-weight: 400;
+}
+.comment-item .card-body p{
+color: hsl(333, 80%, 67%);
+font-weight: 500;
+}
+.comment-item span{
+font-weight: 700;
+}
