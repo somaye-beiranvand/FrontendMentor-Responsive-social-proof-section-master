@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [1](https://www.youtube.com/watch?v=nCX3QVl_PiI) - This helped me customize bootstrap containers max-width
+- [bootsrtap customizations](https://www.youtube.com/watch?v=nCX3QVl_PiI) - This helped me customize bootstrap containers max-width
 
 
 ## Author
