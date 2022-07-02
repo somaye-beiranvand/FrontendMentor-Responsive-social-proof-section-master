@@ -24,7 +24,7 @@ body{
   font-size: 15px;
   color: hsl(303, 10%, 53%);
 }
-.rate{
+.rate-item{
   font-weight: 700;
   color: hsl(300, 43%, 22%);
   font-size: 15px;
@@ -44,6 +44,12 @@ border-radius: 13px;
 color: hsl(333, 80%, 67%);
 font-weight: 500;
 }
+.comment-item p{
+  margin: 0;
+}
 .comment-body span{
 font-weight: 700;
+}
+.rate-text p{
+  margin: 0;
 }
