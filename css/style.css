@@ -29,20 +29,21 @@ body{
   color: hsl(300, 43%, 22%);
   font-size: 15px;
   background-color: hsl(300, 24%, 96%) !important;
-  border: none !important;
+  border-radius: 8px;
 } 
-.comment-item .card{
+.comment-item{
 background-color: hsl(300, 43%, 22%);
 }
 .comment-item {
 color: hsl(300, 24%, 96%);
 font-size: 15px;
 font-weight: 400;
+border-radius: 13px;
 }
-.comment-item .card-body p{
+.comment-body p{
 color: hsl(333, 80%, 67%);
 font-weight: 500;
 }
-.comment-item span{
+.comment-body span{
 font-weight: 700;
 }
