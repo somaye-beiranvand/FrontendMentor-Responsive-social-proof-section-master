@@ -16,8 +16,9 @@ body{
 }
 .description p:first-child{     
   font-weight:700;
-  font-size: 30px;
+  font-size: 38px;
   color: hsl(300, 43%, 22%);
+  line-height: normal;
 }
 .description p:last-child{     
   font-weight:500;

@@ -25,7 +25,7 @@
 }
  @media (min-width: 1200px) { 
   .rate-item{
-    width: 64% !important;
+    width: 66% !important;
   }
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -35,7 +35,7 @@
  }
 @media (max-width: 345.98px){
   .description p:first-child {
-    padding: 0px 42px 0 42px !important;
+    padding: 0px 29px 0 29px  !important;
   }
 }
  @media (max-width: 575.98px) { 
