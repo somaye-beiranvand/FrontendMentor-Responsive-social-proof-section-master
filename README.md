@@ -1,14 +1,14 @@
 # Frontend Mentor - Social proof section solution
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)  - 
+  - [Screenshot](#screenshot) -
 - [My process](#my-process)
-  - [Built with](#built-with)  
+  - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://somaye-beiranvand.github.io/Responsive-social-proof-section-master/)
+- Live Site URL:[Responsive-social-proof-section-master](https://somaye-beiranvand.github.io/FrontendMentor-Responsive-social-proof-section-master/)
 
 ## My process
 
@@ -44,9 +44,6 @@ Users should be able to:
 
 - [bootsrtap customizations](https://www.youtube.com/watch?v=nCX3QVl_PiI) - This helped me customize bootstrap containers max-width
 
-
 ## Author
+
 - Frontend Mentor - [@somaye-beiranvand](https://www.frontendmentor.io/profile/yourusername)
-
-
-
